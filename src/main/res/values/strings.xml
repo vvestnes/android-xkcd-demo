@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Xkcd Demo</string>
+
+    <string name="nav_drawer_open" tools:ignore="ExtraTranslation">Open</string>
+    <string name="nav_drawer_close">Close</string>
+
+    <string name="menu_current">Current</string>
+    <string name="menu_gallery">Browse</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="action_search">Search</string>
+    <string name="search_hint">"Search: ID or text"</string>
+
+    <!-- string-array name="fragment_titles">
+        <item>XKCD | Current</item>
+        <item>Browse</item>
+        <item>Favorites</item>
+        <item>Settings</item>
+        <item>Search</item>
+    </string-array -->
+
+    <string name="favorite">Favorite</string>
+    <string name="title">Title</string>
+    <string name="_1234">1234</string>
+    <string name="share">Share</string>
+    <string name="description">Description</string>
+    <string name="mIsLoading">Loading...</string>
+    <string name="close">Close</string>
+    <string name="app_logo_description">App logo</string>
+    <string name="get_alerted_by_a_notification_when_a_new_xkcd_is_available">Get alerted by a notification when a new XKCD is available.</string>
+    <string name="notification_alert">Notification alert</string>
+    <string name="alert_title">New XKCD! [[num]]</string>
+    <string name="alert_message">A new XKCD is available: [title]</string>
+    <string name="channel_description">This is channel 1</string>
+    <string name="channel_name">Channel 1</string>
+    <string name="action_open">See XKCD</string>
+    <string name="item_not_found">Opps. Item not found.</string>
+    <string name="empty" />
+    <string name="status">Status...</string>
+    <string name="click_back_again">Please click BACK again to exit</string>
+    <string name="data_loading_error">Could not fetch data. Check network connection.</string>
+    <string name="no_data_found">No data found</string>
+    <string name="share_subject">Check out XKCD! [{num}]</string>
+    <string name="share_text">Hey! Have you seen this cool XKCD comic! https://xkcd.com/{num}</string>
+    <string name="share_title">Share URL</string>
+    <string name="data_not_available">Data not available</string>
+</resources>
