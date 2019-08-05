@@ -46,7 +46,7 @@ ViewModels are using the Repository to load data from remote and local source (X
    <img src="https://user-images.githubusercontent.com/256259/62431192-71a7b500-b725-11e9-9416-a0cedca7a814.png" width="100"/>
   </td>
   
-    <td>
+  <td>
    <img src="https://user-images.githubusercontent.com/256259/62431330-fe06a780-b726-11e9-9048-9accd27f874c.png" width="100"/>
   </td>
 
