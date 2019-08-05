@@ -1,12 +1,12 @@
 XKCD Demo
 ================
 
-This Android app is a small demo app for viewing XKCD comics.
+This Android app is a small demo app for viewing XKCD comics using the free and opensource XKCD API.
 
 Features included:
 - View current XKCD
 - Browse (1 to 2100+)
-- Favorites (are also saved to be available in offline modus)
+- Favorites (with offline support)
 - Search
 - Daily Notification on new XKCDs.
 
@@ -18,21 +18,20 @@ Library used:
 - Glide
 - Gson
 
-The app consists of only 1 activity (MainActivity) and several Fragments.
+The app is built upon 1 activity (MainActivity) and several Fragments.
 
-The most important Fragments are the GalleryFragment and the ItemFragment.
+The most important Fragments are GalleryFragment and ItemFragment.
 
-The GalleryFragment contains av ViewPager which let the user swipe through sets of Items.
+The GalleryFragment contains av ViewPager which enables the user to swipe through sets of Items.
 
-Depending on what menu option which is choosen (Current, Favorites, Browse, or Search), the
-list is filled by using Retrofit and calls to XKCD remote API. Favorites are stored in a local (Room)
-database. Images are loaded (and cached) using the Glide library. To support Zoom, Pan and
-animated gifs, the app dependent on PhotoView library.
+The user can change item set via the menu (Current, Favorites, Browse, or Search via the Titlebar). The
+lists are powered by using Retrofit and fetches data from XKCD Webservers. Favorited items are stored in the local (Room)
+database. Images are loaded (and cached) using the Glide library and displayed in a PhotoView widget (supporting Zoom, Pan and
+animated gifs).
 
-The GalleryFragment and ItemFragment are using their own respective ViewModels to separate
-network-loading and state-saving logic from ui-code.
+The GalleryFragment and ItemFragment are using ViewModels to separate save its view-state and do network-loading.
 
-ViewModels are using the Repository to load data from remote and local source (XKCD api and Room DB)
+ViewModels are again dependant on Repository, which again is dependant on Room and Retrofit. (See Architectual image at bottom).
 
 <table>
  <tr>
