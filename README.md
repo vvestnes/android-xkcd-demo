@@ -37,6 +37,12 @@ ViewModels are using the Repository to load data from remote and local source (X
 <table>
  <tr>
   <td>
+   Splash<br/>
+   <img src="https://user-images.githubusercontent.com/256259/62431337-07900f80-b727-11e9-874e-0295270e7cba.png" width="100"/>
+  </td>
+  
+  <td>
+    Current<br/>
    <img src="https://user-images.githubusercontent.com/256259/62431187-62c10280-b725-11e9-907a-c5eb9825269c.png" width="100"/>
   </td>
   <td>
@@ -58,9 +64,6 @@ ViewModels are using the Repository to load data from remote and local source (X
    <img src="https://user-images.githubusercontent.com/256259/62431334-052db580-b727-11e9-98d4-2017e883b85c.png" width="100"/>
   </td>
 
-  <td>
-   <img src="https://user-images.githubusercontent.com/256259/62431337-07900f80-b727-11e9-874e-0295270e7cba.png" width="100"/>
-  </td>
 
  </tr>
  </table>
