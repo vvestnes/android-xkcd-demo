@@ -82,7 +82,7 @@ Architecture
 <img src="https://user-images.githubusercontent.com/256259/62431492-378be280-b728-11e9-89eb-6d863f945742.png" />
 
 
-Additional: proxy https://github.com/vvestnes/xkcd-demo-www-proxy
+Proxy: (optional)  https://github.com/vvestnes/xkcd-demo-www-proxy
 
 ---
 
