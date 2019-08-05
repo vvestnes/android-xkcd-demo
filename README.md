@@ -81,7 +81,8 @@ ViewModels are using the Repository to load data from remote and local source (X
 Architecture
 <img src="https://user-images.githubusercontent.com/256259/62431492-378be280-b728-11e9-89eb-6d863f945742.png" />
 
-<!-- img src="https://user-images.githubusercontent.com/256259/62431414-baf90400-b727-11e9-9bc9-f8e128deaf7e.png" / -->
+
+Additional: proxy https://github.com/vvestnes/xkcd-demo-www-proxy
 
 ---
 
