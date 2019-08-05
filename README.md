@@ -34,12 +34,19 @@ network-loading and state-saving logic from ui-code.
 
 ViewModels are using the Repository to load data from remote and local source (XKCD api and Room DB)
 
-
-
-![Screenshot_1564956247](https://user-images.githubusercontent.com/256259/62431187-62c10280-b725-11e9-907a-c5eb9825269c.png)
-![Screenshot_1564956264](https://user-images.githubusercontent.com/256259/62431189-694f7a00-b725-11e9-8fc4-51214e20671b.png)
-![Screenshot_1564956240](https://user-images.githubusercontent.com/256259/62431192-71a7b500-b725-11e9-9416-a0cedca7a814.png)
-
+<table>
+ <tr>
+  <td>
+   <img src="https://user-images.githubusercontent.com/256259/62431187-62c10280-b725-11e9-907a-c5eb9825269c.png" width="100"/>
+  </td>
+  <td>
+   <img src="https://user-images.githubusercontent.com/256259/62431189-694f7a00-b725-11e9-8fc4-51214e20671b.png" width="100"/>
+  </td>
+  <td>
+   <img src="https://user-images.githubusercontent.com/256259/62431192-71a7b500-b725-11e9-9416-a0cedca7a814.png" width="100"/>
+  </td>
+ </tr>
+ </table>
 
 
 ---
