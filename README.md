@@ -33,6 +33,10 @@ The GalleryFragment and ItemFragment are using ViewModels to separate save its v
 
 ViewModels are again dependant on Repository, which again is dependant on Room and Retrofit. (See Architectual image at bottom).
 
+
+
+
+
 <table>
  <tr>
   <td>
